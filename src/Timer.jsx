@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Page.css";
+import './page.css';
 
 // === Editable settings ===
 const COUNTDOWN_TIME = {
