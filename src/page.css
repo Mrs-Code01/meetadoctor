@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'urban';
+  src: url('../images/Urbanist[wght].ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: urban, sans-serif;
+}
+
+body {
+  background-color: rgb(246, 246, 246);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 800;
+}
+
+p {
+  line-height: 1.4;
+}
+
+main {
+  width: 100%;
+  padding: 0 5%;
+  min-height: 400px;
+  background: linear-gradient(to right, rgba(0, 0, 0, .87), rgba(0, 0, 0, .87)), url('../images/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+}
+
+main h1 {
+  font-size: 5.5rem;
+  background-color: rgb(8, 9, 10);
+  padding: 60px 25%;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -150px;
+}
+
+.sec1 {
+  width: 60%;
+  margin: 270px auto 100px;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.sec1 h2 {
+  font-size: 3.4rem;
+  margin-bottom: 10px;
+  color: rgb(39, 41, 43);
+}
+
+.sec1 p {
+  font-size: 2.1rem;
+}
+
+.sec2 {
+  background-color: rgb(234, 210, 231);
+  padding: 70px 20%;
+}
+
+.sec2 h2 {
+  font-size: 3.4rem;
+  margin-bottom: 20px;
+}
+
+.sec2 p,
+.sec2 b {
+  font-size: 2.2rem;
+}
+
+.sec2 p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.sec3 {
+  margin: 70px 20%;
+  text-align: center;
+}
+
+.sec3 p {
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.sec3 p:nth-of-type(1) {
+  margin-bottom: 20px;
+}
+
+.sec3 p:nth-of-type(2) {
+  line-height: 1.6;
+}
+
+.sec4 {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  text-align: center;
+  padding: 70px 20%;
+}
+
+.sec4 h3 {
+  font-size: 2.6rem;
+  margin-bottom: 25px;
+}
+
+.sec4 a {
+  font-size: 5.7rem;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: rgb(38, 188, 41);
+}
+
+
+
+/*********COUNTDOWNTIMER*********/
+/*********COUNTDOWNTIMER*********/
+/*********COUNTDOWNTIMER*********/
+.countdown {
+  display: flex;
+  justify-content: center;
+  padding: 40px 10%;
+  background-color: black;
+}
+
+.box {
+  text-align: center;
+  margin: 0 15px;
+  color: red;
+}
+
+.number {
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+.p {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+  main h1 {
+    font-size: 4.5rem;
+    background-color: rgb(8, 9, 10);
+    padding: 60px 10%;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -150px;
+  }
+
+  .sec1 {
+    width: 90%;
+  }
+
+  .sec2 {
+    padding: 70px 5%;
+  }
+
+  .sec3 {
+    margin: 70px 5%;
+  }
+
+
+  .number {
+    font-size: 5.5rem;
+    font-weight: bold;
+  }
+
+  .p {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+
+  .sec4 {
+    padding: 70px 5%;
+  }
+
+  .sec4 h3 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+  }
+
+  .sec4 a {
+    font-size: 4.5rem;
+  }
+
+  .sec1 h2 {
+    font-size: 3.1rem;
+  }
+
+  .sec1 p {
+    font-size: 2rem;
+  }
+
+  .sec2 h2 {
+    font-size: 3.1rem;
+    margin-bottom: 20px;
+  }
+
+  .sec2 p,
+  .sec2 b {
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width:370px) {
+  .number {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+  .p {
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+}
